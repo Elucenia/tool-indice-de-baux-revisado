@@ -1,0 +1,162 @@
+{
+  "tool": {
+    "id": "indice-de-baux-revisado",
+    "title": "Índice de Baux revisado",
+    "short": "Gravidade e prognóstico no grande queimado",
+    "desc": "Índice de Baux revisado (Osler, 2010): idade + superfície corporal queimada + 17 pontos pela lesão inalatória, marcador de mortalidade em queimados.",
+    "lead": "Resume em um número os três principais determinantes de mortalidade após queimadura: idade, extensão da queimadura e lesão inalatória.",
+    "spec": [
+      "cirurgia-plastica",
+      "medicina-intensiva",
+      "medicina-de-emergencia"
+    ],
+    "fields": [
+      [
+        "idade",
+        "Idade",
+        "num",
+        {
+          "min": 0,
+          "max": 110,
+          "step": 1,
+          "unit": "anos",
+          "ph": "45"
+        }
+      ],
+      [
+        "scq",
+        "Superfície corporal queimada",
+        "num",
+        {
+          "min": 0,
+          "max": 100,
+          "step": 0.5,
+          "unit": "%",
+          "ph": "30"
+        }
+      ],
+      [
+        "inalacao",
+        "Lesão inalatória?",
+        "radio",
+        {
+          "opts": {
+            "0": "Não",
+            "1": "Sim"
+          }
+        }
+      ]
+    ],
+    "formula": "<p><strong>Baux revisado</strong> = idade (anos) + SCQ (%) + 17 × lesão inalatória (1 = sim, 0 = não).</p><p>No modelo de Osler (39.888 queimados do registro norte-americano), idade e SCQ pesaram quase igual, e a lesão inalatória equivaleu a 17 anos ou 17% de SCQ. A probabilidade de óbito vem da transformação logística do escore.</p>",
+    "table": [
+      [
+        "Componente",
+        "Pontos"
+      ],
+      [
+        "Idade",
+        "1 por ano"
+      ],
+      [
+        "Superfície corporal queimada",
+        "1 por %"
+      ],
+      [
+        "Lesão inalatória",
+        "17"
+      ]
+    ],
+    "tips": [
+      "O Baux clássico (idade + SCQ) era lido como a mortalidade em %; com o tratamento atual essa leitura é pessimista, e o escore revisado foi recalibrado por isso.",
+      "Use para comunicar gravidade, comparar casuísticas e apoiar discussões de prognóstico, nunca como critério isolado de limitação de suporte.",
+      "A lesão inalatória deve ser confirmada (broncoscopia, contexto de ambiente fechado, fuligem na via aérea): suspeita não confirmada superestima o escore.",
+      "A validação externa mostrou boa discriminação em centros de queimados, mas pior desempenho nos escores muito altos."
+    ],
+    "sources": [
+      [
+        "Osler T, Glance LG, Hosmer DW. Simplified estimates of the probability of death after burn injuries: extending and updating the Baux score. J Trauma, 2010.",
+        "https://doi.org/10.1097/TA.0b013e3181c453b3"
+      ],
+      [
+        "Dokter J et al. External validation of the revised Baux score for the prediction of mortality in patients with acute burn injury. J Trauma Acute Care Surg, 2014.",
+        "https://doi.org/10.1097/TA.0000000000000124"
+      ]
+    ],
+    "cases": [
+      [
+        "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        {
+          "idade": 40,
+          "scq": 30,
+          "inalacao": "1"
+        },
+        {
+          "raw": {
+            "score": 87,
+            "classico": 70
+          },
+          "level": "info"
+        }
+      ],
+      [
+        "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        {
+          "idade": 60,
+          "scq": 50,
+          "inalacao": "0"
+        },
+        {
+          "raw": {
+            "score": 110,
+            "classico": 110
+          }
+        }
+      ],
+      [
+        "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        {
+          "idade": 25,
+          "scq": 12.5,
+          "inalacao": "0"
+        },
+        {
+          "raw": {
+            "score": 37.5
+          }
+        }
+      ]
+    ],
+    "batch": "cirurgia-sentidos",
+    "kind": "Calculadora",
+    "config": null,
+    "areaId": "cirurgia-sentidos",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/cirurgia-sentidos.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 3,
+      "passed": 3,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/cirurgia-sentidos.php",
+    "sha256": "21fc91a9a8187a66496f68c2ac8fbdd20a65ceeea519687c963b857f72640866",
+    "bytes": 89063
+  },
+  "clinicalValidation": "not-performed"
+}

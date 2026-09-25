@@ -1,0 +1,19 @@
+{
+  "name": "@elucenia/tool-indice-de-baux-revisado",
+  "version": "0.1.0",
+  "description": "Índice de Baux revisado",
+  "main": "calculator.js",
+  "type": "commonjs",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elucenia/tool-indice-de-baux-revisado.git"
+  }
+}

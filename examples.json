@@ -1,0 +1,62 @@
+[
+  {
+    "label": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+    "input": {
+      "idade": 40,
+      "scq": 30,
+      "inalacao": "1"
+    },
+    "expected": {
+      "raw": {
+        "score": 87,
+        "classico": 70
+      },
+      "level": "info"
+    },
+    "originalInput": {
+      "idade": 40,
+      "scq": 30,
+      "inalacao": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+    "input": {
+      "idade": 60,
+      "scq": 50,
+      "inalacao": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 110,
+        "classico": 110
+      }
+    },
+    "originalInput": {
+      "idade": 60,
+      "scq": 50,
+      "inalacao": "0"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+    "input": {
+      "idade": 25,
+      "scq": 12.5,
+      "inalacao": "0"
+    },
+    "expected": {
+      "raw": {
+        "score": 37.5
+      }
+    },
+    "originalInput": {
+      "idade": 25,
+      "scq": 12.5,
+      "inalacao": "0"
+    },
+    "expandedZeroOptions": []
+  }
+]
