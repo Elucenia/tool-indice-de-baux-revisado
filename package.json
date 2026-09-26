@@ -1,7 +1,7 @@
 {
   "name": "@elucenia/tool-indice-de-baux-revisado",
   "version": "0.1.0",
-  "description": "Índice de Baux revisado · Elucenia: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
+  "description": "Índice de Baux revisado · ELUCENIA: reprodução técnica de fórmula ou escore clínico, sem dependências, para navegador e Node.js.",
   "keywords": [
     "elucenia",
     "medical-calculator",
