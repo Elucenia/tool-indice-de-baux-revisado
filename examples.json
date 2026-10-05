@@ -1,6 +1,14 @@
 [
   {
-    "label": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+    "id": "indice-de-baux-revisado",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+    "originalInput": {
+      "idade": 40,
+      "scq": 30,
+      "inalacao": "1"
+    },
     "input": {
       "idade": 40,
       "scq": 30,
@@ -13,15 +21,36 @@
       },
       "level": "info"
     },
-    "originalInput": {
-      "idade": 40,
-      "scq": 30,
-      "inalacao": "1"
+    "recordedResult": {
+      "main": [
+        "87",
+        "pontos"
+      ],
+      "label": "Baux revisado",
+      "raw": {
+        "score": 87,
+        "classico": 70
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+    "id": "indice-de-baux-revisado",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+    "originalInput": {
+      "idade": 60,
+      "scq": 50,
+      "inalacao": "0"
+    },
     "input": {
       "idade": 60,
       "scq": 50,
@@ -33,15 +62,36 @@
         "classico": 110
       }
     },
-    "originalInput": {
-      "idade": 60,
-      "scq": 50,
-      "inalacao": "0"
+    "recordedResult": {
+      "main": [
+        "110",
+        "pontos"
+      ],
+      "label": "Baux revisado",
+      "raw": {
+        "score": 110,
+        "classico": 110
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+    "id": "indice-de-baux-revisado",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+    "originalInput": {
+      "idade": 25,
+      "scq": 12.5,
+      "inalacao": "0"
+    },
     "input": {
       "idade": 25,
       "scq": 12.5,
@@ -52,11 +102,24 @@
         "score": 37.5
       }
     },
-    "originalInput": {
-      "idade": 25,
-      "scq": 12.5,
-      "inalacao": "0"
+    "recordedResult": {
+      "main": [
+        "38",
+        "pontos"
+      ],
+      "label": "Baux revisado",
+      "raw": {
+        "score": 37.5,
+        "classico": 37.5
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]

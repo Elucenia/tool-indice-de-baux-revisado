@@ -1,0 +1,300 @@
+{
+  "id": "indice-de-baux-revisado",
+  "at": "2026-10-05T17:29:47.739Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/indice-de-baux-revisado/calculator.js",
+    "bytes": 4912,
+    "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+  },
+  "cases": [
+    {
+      "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+      "input": {
+        "idade": 40,
+        "scq": 30,
+        "inalacao": "1"
+      },
+      "obtained": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "87",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 87,
+          "classico": 70
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 87,
+          "obtained": 87,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.classico",
+          "expected": 70,
+          "obtained": 70,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 87,
+          "obtained": 87,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.classico",
+          "expected": 70,
+          "obtained": 70,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "87",
+          "obtained": "87",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+      "input": {
+        "idade": 60,
+        "scq": 50,
+        "inalacao": "0"
+      },
+      "obtained": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "110",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 110,
+          "classico": 110
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 110,
+          "obtained": 110,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.classico",
+          "expected": 110,
+          "obtained": 110,
+          "tolerance": 1e-8,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 110,
+          "obtained": 110,
+          "tolerance": 1.1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.classico",
+          "expected": 110,
+          "obtained": 110,
+          "tolerance": 1.1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "110",
+          "obtained": "110",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+      "input": {
+        "idade": 25,
+        "scq": 12.5,
+        "inalacao": "0"
+      },
+      "obtained": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "38",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 37.5,
+          "classico": 37.5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.score",
+          "expected": 37.5,
+          "obtained": 37.5,
+          "tolerance": 0.050000010000000004,
+          "difference": 0,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.score",
+          "expected": 37.5,
+          "obtained": 37.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.classico",
+          "expected": 37.5,
+          "obtained": 37.5,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "38",
+          "obtained": "38",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "pontos",
+          "obtained": "pontos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 27,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

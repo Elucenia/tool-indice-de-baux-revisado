@@ -5,6 +5,7 @@
     "short": "Gravidade e prognóstico no grande queimado",
     "desc": "Índice de Baux revisado (Osler, 2010): idade + superfície corporal queimada + 17 pontos pela lesão inalatória, marcador de mortalidade em queimados.",
     "lead": "Resume em um número os três principais determinantes de mortalidade após queimadura: idade, extensão da queimadura e lesão inalatória.",
+    "kind": "Calculadora",
     "spec": [
       "cirurgia-plastica",
       "medicina-intensiva",
@@ -48,30 +49,6 @@
       ]
     ],
     "formula": "<p><strong>Baux revisado</strong> = idade (anos) + SCQ (%) + 17 × lesão inalatória (1 = sim, 0 = não).</p><p>No modelo de Osler (39.888 queimados do registro norte-americano), idade e SCQ pesaram quase igual, e a lesão inalatória equivaleu a 17 anos ou 17% de SCQ. A probabilidade de óbito vem da transformação logística do escore.</p>",
-    "table": [
-      [
-        "Componente",
-        "Pontos"
-      ],
-      [
-        "Idade",
-        "1 por ano"
-      ],
-      [
-        "Superfície corporal queimada",
-        "1 por %"
-      ],
-      [
-        "Lesão inalatória",
-        "17"
-      ]
-    ],
-    "tips": [
-      "O Baux clássico (idade + SCQ) era lido como a mortalidade em %; com o tratamento atual essa leitura é pessimista, e o escore revisado foi recalibrado por isso.",
-      "Use para comunicar gravidade, comparar casuísticas e apoiar discussões de prognóstico, nunca como critério isolado de limitação de suporte.",
-      "A lesão inalatória deve ser confirmada (broncoscopia, contexto de ambiente fechado, fuligem na via aérea): suspeita não confirmada superestima o escore.",
-      "A validação externa mostrou boa discriminação em centros de queimados, mas pior desempenho nos escores muito altos."
-    ],
     "sources": [
       [
         "Osler T, Glance LG, Hosmer DW. Simplified estimates of the probability of death after burn injuries: extending and updating the Baux score. J Trauma, 2010.",
@@ -126,9 +103,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -137,17 +111,180 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T13:01:58.037Z",
+      "total": 180,
+      "passed": 180,
+      "evidencePath": "reports/review-20261003/four-linear-volume-source-oracles-final23.json",
+      "evidenceSha256": "7e5cc71340a2edf4506eee3a49c2c6fcc7a71cc73d2002cc57afdc928637ce5d",
+      "peerEvidencePath": "reports/review-20261003/independent-four-linear-volume-source-oracles-final23.json",
+      "peerEvidenceSha256": "aa29f261bf43be7f7f285898bce5ae671883847d5c3b9171793d372d1eecf31e",
+      "scope": "Arithmetic equation only, with source-version limits recorded. No approval of input clinical classification, thresholds, predictions, translations, rights or release.",
+      "source": {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20038856/",
+        "edition": "Osler2010, DOI10.1097/TA.0b013e3181c453b3",
+        "locator": "Original abstract Results",
+        "access": "Original abstract read directly2026-10-04; age+burn percentage+17 for inhalation injury. Classical age+burn subtotal also checked. The logistic mortality transform and clinical use are outside these tests."
+      },
+      "implementations": [
+        {
+          "app": "website",
+          "id": "indice-de-baux-revisado",
+          "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+        },
+        {
+          "app": "dashboard",
+          "id": "indice-de-baux-revisado",
+          "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+        },
+        {
+          "app": "command-center",
+          "id": "indice-de-baux-revisado",
+          "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+        }
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Revised Baux/Osler 2010:idade+SCQ+17 lesãoinalatória; modelo logístico original",
+    "implementationVersion": "indice-de-baux-revisado@native-2026-10-03+6341b996b10f",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/20038856/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Baux revisado = idade (anos) + SCQ (%) + 17 × lesão inalatória (1 = sim, 0 = não). No modelo de Osler (39.888 queimados do registro norte-americano), idade e SCQ pesaram quase igual, e a lesão inalatória equivaleu a 17 anos ou 17% de SCQ. A probabilidade de óbito vem da transformação logística do escore.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "num",
+            "min": 0,
+            "max": 110,
+            "unit": "anos",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "scq",
+            "label": "Superfície corporal queimada",
+            "type": "num",
+            "min": 0,
+            "max": 100,
+            "unit": "%",
+            "optional": false,
+            "options": null
+          },
+          {
+            "key": "inalacao",
+            "label": "Lesão inalatória?",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "0": "Não",
+              "1": "Sim"
+            }
+          }
+        ],
+        "hash": "861371b39e4018923eea1dd5d6d978c4dc7a4a4172d057e58d8149fff605a72c"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Osler T, Glance LG, Hosmer DW. Simplified estimates of the probability of death after burn injuries: extending and updating the Baux score. J Trauma, 2010.",
+          "url": "https://doi.org/10.1097/TA.0b013e3181c453b3",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Simplified estimates of the probability of death after burn injuries: extending and updating the baux score.",
+            "year": "2010",
+            "firstPublicationDate": "2010-03-01",
+            "doi": "10.1097/ta.0b013e3181c453b3",
+            "pmid": "20038856",
+            "journal": "The Journal of trauma",
+            "authors": "Osler T, Glance LG, Hosmer DW."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/20038856/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "5afd8c53d28039b8582f8f6097495aa4e6342a019d2ac820bc6b544514412efa",
+          "matchedBy": "exact-DOI-or-PMID"
+        },
+        {
+          "citation": "Dokter J et al. External validation of the revised Baux score for the prediction of mortality in patients with acute burn injury. J Trauma Acute Care Surg, 2014.",
+          "url": "https://doi.org/10.1097/TA.0000000000000124",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "External validation of the revised Baux score for the prediction of mortality in patients with acute burn injury.",
+            "year": "2014",
+            "firstPublicationDate": "2014-03-01",
+            "doi": "10.1097/ta.0000000000000124",
+            "pmid": "24553558",
+            "journal": "The journal of trauma and acute care surgery",
+            "authors": "Dokter J, Meijs J, Oen IM, van Baar ME, van der Vlies CH, Boxma H."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/24553558/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "6e4b2ca929975d1217b2b7d1ebc4593f2510902c8aade4b79f0826c634c3e937",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T13:01:58.037Z",
+        "total": 180,
+        "passed": 180,
+        "evidencePath": "reports/review-20261003/four-linear-volume-source-oracles-final23.json",
+        "scope": "Arithmetic equation only, with source-version limits recorded. No approval of input clinical classification, thresholds, predictions, translations, rights or release.",
+        "caseEvidence": {
+          "schema": "independentArithmeticTest.cases",
+          "recordedEvidenceSha256": "cb97e800ad9105b3bf7d20b9554dcd6969a6da7b83831e6791c3c9237d336fc0"
+        }
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+    },
+    "limits": "O Baux revisado soma idade, porcentagem de área queimada e 17 para lesão inalatória. O total bruto não é porcentagem de mortalidade: a probabilidade requer a transformação logística da versão. O modelo simplificado teve desempenho inferior ao modelo mais complexo no artigo e exige interpretação na população clínica adequada.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.036Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não traz coeficientes logísticos, exclusões ou limites etários; Baux bruto não é porcentagem de mortalidade. Validação Dokter 2014 é fonte distinta."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/indice-de-baux-revisado/calculator.js",
+    "bytes": 4912,
+    "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "202bca16a4311f8e48ceaec63d00deccd3cc0b609a86b3d706dc7d5d2eafc9bc",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 180,
+      "sha256": "e9e2b70d7bdaf5c9974fcd93028380b6e56a636bafd2729bf7ecca108dd77089",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
