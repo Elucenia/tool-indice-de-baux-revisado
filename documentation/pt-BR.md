@@ -74,3 +74,43 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Baux clássico (idade + SCQ) | 70 |
+| Lesão inalatória | +17 |
+
+O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.
+
+
+### 2
+
+Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Baux clássico (idade + SCQ) | 110 |
+| Lesão inalatória | não |
+
+O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.
+
+
+### 3
+
+Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)
+
+| Detalhes do resultado | |
+| --- | --- |
+| Baux clássico (idade + SCQ) | 38 |
+| Lesão inalatória | não |
+
+O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.
+

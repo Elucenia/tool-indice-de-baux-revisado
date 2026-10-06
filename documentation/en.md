@@ -74,3 +74,43 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)
+
+| Result details | |
+| --- | --- |
+| Classic Baux (age + TBSA) | 70 |
+| Inhalation injury | +17 |
+
+The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.
+
+
+### 2
+
+The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)
+
+| Result details | |
+| --- | --- |
+| Classic Baux (age + TBSA) | 110 |
+| Inhalation injury | no |
+
+The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.
+
+
+### 3
+
+The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)
+
+| Result details | |
+| --- | --- |
+| Classic Baux (age + TBSA) | 38 |
+| Inhalation injury | no |
+
+The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.
+

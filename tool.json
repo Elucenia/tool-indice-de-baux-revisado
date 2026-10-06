@@ -149,7 +149,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Revised Baux/Osler 2010:idade+SCQ+17 lesãoinalatória; modelo logístico original",
-    "implementationVersion": "indice-de-baux-revisado@native-2026-10-03+6341b996b10f",
+    "implementationVersion": "indice-de-baux-revisado@native-2026-10-05+14605ce786dd",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/20038856/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -254,7 +254,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+      "implementationHash": "14605ce786dd0795600f8dab40222a5e3f33a4a185c0cf7c714bb9f80723964f",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "indice-de-baux-revisado@native-2026-10-03+6341b996b10f",
+          "previousImplementationHash": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1",
+          "implementationHash": "14605ce786dd0795600f8dab40222a5e3f33a4a185c0cf7c714bb9f80723964f",
+          "scientificBodySha256": "cf0ef71eb7f2a95354ea48c9962e93ead552117f5490ad94e211b8710d8e103d",
+          "metadataContractHash": "861371b39e4018923eea1dd5d6d978c4dc7a4a4172d057e58d8149fff605a72c",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O Baux revisado soma idade, porcentagem de área queimada e 17 para lesão inalatória. O total bruto não é porcentagem de mortalidade: a probabilidade requer a transformação logística da versão. O modelo simplificado teve desempenho inferior ao modelo mais complexo no artigo e exige interpretação na população clínica adequada.",
     "sourceLimitEvidence": {
@@ -273,15 +301,15 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/indice-de-baux-revisado/calculator.js",
-    "bytes": 4912,
-    "sha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1"
+    "bytes": 5117,
+    "sha256": "14605ce786dd0795600f8dab40222a5e3f33a4a185c0cf7c714bb9f80723964f"
   },
-  "sourceToolSha256": "202bca16a4311f8e48ceaec63d00deccd3cc0b609a86b3d706dc7d5d2eafc9bc",
+  "sourceToolSha256": "b493c0383c02d781a8db97b0e0ff06fb33cf0f5ae7135eee4b4cee10488a0a7c",
   "omittedFullReferenceBanks": [
     {
       "rows": 180,
       "sha256": "e9e2b70d7bdaf5c9974fcd93028380b6e56a636bafd2729bf7ecca108dd77089",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

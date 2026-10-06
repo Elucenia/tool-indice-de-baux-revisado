@@ -74,3 +74,43 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)
+
+| Detalles del resultado | |
+| --- | --- |
+| Baux clásico (edad + SCT) | 70 |
+| Lesión por inhalación | +17 |
+
+El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.
+
+
+### 2
+
+Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)
+
+| Detalles del resultado | |
+| --- | --- |
+| Baux clásico (edad + SCT) | 110 |
+| Lesión por inhalación | no |
+
+El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.
+
+
+### 3
+
+Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)
+
+| Detalles del resultado | |
+| --- | --- |
+| Baux clásico (edad + SCT) | 38 |
+| Lesión por inhalación | no |
+
+El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.
+

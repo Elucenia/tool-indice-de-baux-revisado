@@ -1,0 +1,217 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "indice-de-baux-revisado",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "7887587d37ec0fcf701b4db45fb499d8fa150d29",
+    "oldEngineSha256": "6341b996b10f4f90ebf9aefdf1536cea923b663ddfd001622d3aeb3ccaf6aca1",
+    "currentEngineSha256": "14605ce786dd0795600f8dab40222a5e3f33a4a185c0cf7c714bb9f80723964f"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+      "input": {
+        "idade": 40,
+        "scq": 30,
+        "inalacao": "1"
+      },
+      "publicOutput": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "87",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 87,
+          "classico": 70
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 87,
+          "classico": 70
+        },
+        "level": "info"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "87",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "level": "info",
+        "verdict": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+        "rows": [
+          [
+            "Baux clássico (idade + SCQ)",
+            "70"
+          ],
+          [
+            "Lesão inalatória",
+            "+17"
+          ]
+        ],
+        "note": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+        "raw": {
+          "score": 87,
+          "classico": 70
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+      "input": {
+        "idade": 60,
+        "scq": 50,
+        "inalacao": "0"
+      },
+      "publicOutput": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "110",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 110,
+          "classico": 110
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 110,
+          "classico": 110
+        }
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "110",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "level": "info",
+        "verdict": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+        "rows": [
+          [
+            "Baux clássico (idade + SCQ)",
+            "110"
+          ],
+          [
+            "Lesão inalatória",
+            "não"
+          ]
+        ],
+        "note": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+        "raw": {
+          "score": 110,
+          "classico": 110
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+      "input": {
+        "idade": 25,
+        "scq": 12.5,
+        "inalacao": "0"
+      },
+      "publicOutput": {
+        "id": "indice-de-baux-revisado",
+        "main": [
+          "38",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "raw": {
+          "score": 37.5,
+          "classico": 37.5
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "raw": {
+          "score": 37.5
+        }
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "38",
+          "pontos"
+        ],
+        "label": "Baux revisado",
+        "level": "info",
+        "verdict": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+        "rows": [
+          [
+            "Baux clássico (idade + SCQ)",
+            "38"
+          ],
+          [
+            "Lesão inalatória",
+            "não"
+          ]
+        ],
+        "note": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+        "raw": {
+          "score": 37.5,
+          "classico": 37.5
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "rows",
+        "note"
+      ]
+    }
+  ]
+}

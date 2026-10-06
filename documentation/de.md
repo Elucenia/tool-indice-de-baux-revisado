@@ -74,3 +74,43 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Klassischer Baux (Alter + KOF) | 70 |
+| Inhalationstrauma | +17 |
+
+Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.
+
+
+### 2
+
+Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Klassischer Baux (Alter + KOF) | 110 |
+| Inhalationstrauma | nein |
+
+Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.
+
+
+### 3
+
+Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)
+
+| Ergebnisdetails | |
+| --- | --- |
+| Klassischer Baux (Alter + KOF) | 38 |
+| Inhalationstrauma | nein |
+
+Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.
+

@@ -74,3 +74,43 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Baux classico (età + SCQ) | 70 |
+| Lesione da inalazione | +17 |
+
+Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.
+
+
+### 2
+
+Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Baux classico (età + SCQ) | 110 |
+| Lesione da inalazione | no |
+
+Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.
+
+
+### 3
+
+Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)
+
+| Dettagli del risultato | |
+| --- | --- |
+| Baux classico (età + SCQ) | 38 |
+| Lesione da inalazione | no |
+
+Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.
+

@@ -74,3 +74,43 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)
+
+| Détails du résultat | |
+| --- | --- |
+| Baux classique (âge + SCT) | 70 |
+| Lésion d’inhalation | +17 |
+
+Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.
+
+
+### 2
+
+Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)
+
+| Détails du résultat | |
+| --- | --- |
+| Baux classique (âge + SCT) | 110 |
+| Lésion d’inhalation | non |
+
+Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.
+
+
+### 3
+
+Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)
+
+| Détails du résultat | |
+| --- | --- |
+| Baux classique (âge + SCT) | 38 |
+| Lésion d’inhalation | non |
+
+Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.
+

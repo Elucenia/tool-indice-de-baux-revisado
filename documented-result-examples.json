@@ -1,0 +1,1455 @@
+{
+  "id": "indice-de-baux-revisado",
+  "implementationVersion": "indice-de-baux-revisado@native-2026-10-05+14605ce786dd",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clássico (idade + SCQ)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "70",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesão inalatória",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clássico (idade + SCQ)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "110",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesão inalatória",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "não",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clássico (idade + SCQ)",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "38",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesão inalatória",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "não",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Quanto maior o escore, maior a mortalidade prevista; a lesão inalatória equivale a 17 anos (ou 17% de SCQ)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "O Baux clássico foi criado como estimativa da mortalidade em %; com o tratamento atual, essa leitura superestima o risco.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Classic Baux (age + TBSA)",
+                "locale": "en",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "en",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalation injury",
+                "locale": "en",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "en",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)",
+            "locale": "en",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.",
+            "locale": "en",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Classic Baux (age + TBSA)",
+                "locale": "en",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "en",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalation injury",
+                "locale": "en",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "en",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)",
+            "locale": "en",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.",
+            "locale": "en",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Classic Baux (age + TBSA)",
+                "locale": "en",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "en",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalation injury",
+                "locale": "en",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "en",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "The higher the score, the higher the predicted mortality; inhalation injury is equivalent to 17 years (or 17% of TBSA)",
+            "locale": "en",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "The classic Baux score was created as an estimate of mortality in %; with current treatment, this reading overestimates the risk.",
+            "locale": "en",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clásico (edad + SCT)",
+                "locale": "es",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "es",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesión por inhalación",
+                "locale": "es",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "es",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)",
+            "locale": "es",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.",
+            "locale": "es",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clásico (edad + SCT)",
+                "locale": "es",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "es",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesión por inhalación",
+                "locale": "es",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "es",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)",
+            "locale": "es",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.",
+            "locale": "es",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux clásico (edad + SCT)",
+                "locale": "es",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "es",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesión por inhalación",
+                "locale": "es",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "es",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Cuanto mayor es la puntuación, mayor es la mortalidad prevista; la lesión por inhalación equivale a 17 años (o 17% de SCT)",
+            "locale": "es",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "El índice de Baux clásico fue creado como una estimación de la mortalidad en %; con el tratamiento actual, esta lectura sobrestima el riesgo.",
+            "locale": "es",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classique (âge + SCT)",
+                "locale": "fr",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "fr",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lésion d’inhalation",
+                "locale": "fr",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "fr",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)",
+            "locale": "fr",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.",
+            "locale": "fr",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classique (âge + SCT)",
+                "locale": "fr",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "fr",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lésion d’inhalation",
+                "locale": "fr",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "non",
+                "locale": "fr",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)",
+            "locale": "fr",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.",
+            "locale": "fr",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classique (âge + SCT)",
+                "locale": "fr",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "fr",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lésion d’inhalation",
+                "locale": "fr",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "non",
+                "locale": "fr",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Plus le score est élevé, plus la mortalité prévue est élevée ; la lésion d’inhalation équivaut à 17 ans (ou 17 % de la SCT)",
+            "locale": "fr",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Le score de Baux classique a été créé comme estimation de la mortalité en % ; avec le traitement actuel, cette lecture surestime le risque.",
+            "locale": "fr",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Klassischer Baux (Alter + KOF)",
+                "locale": "de",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "de",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalationstrauma",
+                "locale": "de",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "de",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)",
+            "locale": "de",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.",
+            "locale": "de",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Klassischer Baux (Alter + KOF)",
+                "locale": "de",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "de",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalationstrauma",
+                "locale": "de",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "nein",
+                "locale": "de",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)",
+            "locale": "de",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.",
+            "locale": "de",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Klassischer Baux (Alter + KOF)",
+                "locale": "de",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "de",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Inhalationstrauma",
+                "locale": "de",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "nein",
+                "locale": "de",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Je höher der Score, desto höher die vorhergesagte Mortalität; eine Inhalationstrauma entspricht 17 Jahren (oder 17 % der KOF)",
+            "locale": "de",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Der klassische Baux-Score wurde als Schätzung der Mortalität in % erstellt; mit der heutigen Behandlung überschätzt diese Lesart das Risiko.",
+            "locale": "de",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classico (età + SCQ)",
+                "locale": "it",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "it",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesione da inalazione",
+                "locale": "it",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "it",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)",
+            "locale": "it",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.",
+            "locale": "it",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classico (età + SCQ)",
+                "locale": "it",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "it",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesione da inalazione",
+                "locale": "it",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "it",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)",
+            "locale": "it",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.",
+            "locale": "it",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Baux classico (età + SCQ)",
+                "locale": "it",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "it",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "Lesione da inalazione",
+                "locale": "it",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "no",
+                "locale": "it",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Maggiore è il punteggio, maggiore è la mortalità prevista; la lesione da inalazione equivale a 17 anni (o 17% della SCQ)",
+            "locale": "it",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "Il punteggio di Baux classico è stato creato come stima della mortalità in %; con il trattamento attuale, questa lettura sovrastima il rischio.",
+            "locale": "it",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "باوكس الكلاسيكي (العمر + مساحة سطح الجسم)",
+                "locale": "ar",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "٧٠",
+                "locale": "ar",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "إصابة استنشاقية",
+                "locale": "ar",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "؜+١٧",
+                "locale": "ar",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "كلما ارتفعت الدرجة، ارتفعت الوفيات المتوقعة؛ تعادل إصابة الاستنشاق 17 سنة (أو 17% من مساحة سطح الجسم)",
+            "locale": "ar",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "تم إنشاء مقياس باوكس الكلاسيكي كتقدير للوفيات بنسبة %؛ ومع العلاج الحالي، فإن هذه القراءة تبالغ في تقدير الخطر.",
+            "locale": "ar",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "باوكس الكلاسيكي (العمر + مساحة سطح الجسم)",
+                "locale": "ar",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "١١٠",
+                "locale": "ar",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "إصابة استنشاقية",
+                "locale": "ar",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "لا",
+                "locale": "ar",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "كلما ارتفعت الدرجة، ارتفعت الوفيات المتوقعة؛ تعادل إصابة الاستنشاق 17 سنة (أو 17% من مساحة سطح الجسم)",
+            "locale": "ar",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "تم إنشاء مقياس باوكس الكلاسيكي كتقدير للوفيات بنسبة %؛ ومع العلاج الحالي، فإن هذه القراءة تبالغ في تقدير الخطر.",
+            "locale": "ar",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "باوكس الكلاسيكي (العمر + مساحة سطح الجسم)",
+                "locale": "ar",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "٣٨",
+                "locale": "ar",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "إصابة استنشاقية",
+                "locale": "ar",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "لا",
+                "locale": "ar",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "كلما ارتفعت الدرجة، ارتفعت الوفيات المتوقعة؛ تعادل إصابة الاستنشاق 17 سنة (أو 17% من مساحة سطح الجسم)",
+            "locale": "ar",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "تم إنشاء مقياس باوكس الكلاسيكي كتقدير للوفيات بنسبة %؛ ومع العلاج الحالي، فإن هذه القراءة تبالغ في تقدير الخطر.",
+            "locale": "ar",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "经典Baux（年龄 + 体表面积）",
+                "locale": "zh",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "zh",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入性损伤",
+                "locale": "zh",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "zh",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "评分越高，预测死亡率越高；吸入性损伤相当于17年（或体表面积的17%）",
+            "locale": "zh",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "经典Baux评分是作为死亡率的%估计而创建的；在当前治疗下，这种读法会高估风险。",
+            "locale": "zh",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "经典Baux（年龄 + 体表面积）",
+                "locale": "zh",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "zh",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入性损伤",
+                "locale": "zh",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "否",
+                "locale": "zh",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "评分越高，预测死亡率越高；吸入性损伤相当于17年（或体表面积的17%）",
+            "locale": "zh",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "经典Baux评分是作为死亡率的%估计而创建的；在当前治疗下，这种读法会高估风险。",
+            "locale": "zh",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "经典Baux（年龄 + 体表面积）",
+                "locale": "zh",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "zh",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入性损伤",
+                "locale": "zh",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "否",
+                "locale": "zh",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "评分越高，预测死亡率越高；吸入性损伤相当于17年（或体表面积的17%）",
+            "locale": "zh",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "经典Baux评分是作为死亡率的%估计而创建的；在当前治疗下，这种读法会高估风险。",
+            "locale": "zh",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "古典的Baux（年齢 + TBSA）",
+                "locale": "ja",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "ja",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入損傷",
+                "locale": "ja",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "ja",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "スコアが高いほど予測死亡率は高い；吸入損傷は17年（またはTBSAの17%）に相当する",
+            "locale": "ja",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "古典的なBauxスコアは死亡率を%で推定するために作成された；現在の治療では、この読み方はリスクを過大評価する。",
+            "locale": "ja",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "古典的Baux（年齢 + TBSA）",
+                "locale": "ja",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "ja",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入損傷",
+                "locale": "ja",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "いいえ",
+                "locale": "ja",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "スコアが高いほど予測死亡率は高い；吸入損傷は17年（またはTBSAの17%）に相当する",
+            "locale": "ja",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "古典的なBauxスコアは死亡率を%で推定するために作成された；現在の治療では、この読み方はリスクを過大評価する。",
+            "locale": "ja",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "古典的Baux（年齢 + TBSA）",
+                "locale": "ja",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "ja",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "吸入損傷",
+                "locale": "ja",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "いいえ",
+                "locale": "ja",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "スコアが高いほど予測死亡率は高い；吸入損傷は17年（またはTBSAの17%）に相当する",
+            "locale": "ja",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "古典的なBauxスコアは死亡率を%で推定するために作成された；現在の治療では、この読み方はリスクを過大評価する。",
+            "locale": "ja",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "40 anos, 30% de SCQ, com lesão inalatória: 40 + 30 + 17 = 87",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "क्लासिक Baux (आयु + SCQ)",
+                "locale": "hi",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "70",
+                "locale": "hi",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  70
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इनहेलेशन चोट",
+                "locale": "hi",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "+17",
+                "locale": "hi",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  17
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "स्कोर जितना अधिक होगा, अनुमानित मृत्यु दर उतनी ही अधिक होगी; इनहेलेशन चोट 17 वर्षों (या SCQ के 17%) के बराबर है",
+            "locale": "hi",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "क्लासिक Baux स्कोर % में मृत्यु दर के अनुमान के रूप में बनाया गया था; वर्तमान उपचार के साथ, यह व्याख्या जोखिम को अधिक आँकती है।",
+            "locale": "hi",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "60 anos, 50% de SCQ, sem lesão inalatória: 110",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "क्लासिक Baux (आयु + SCQ)",
+                "locale": "hi",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "110",
+                "locale": "hi",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  110
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इनहेलेशन चोट",
+                "locale": "hi",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "नहीं",
+                "locale": "hi",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "स्कोर जितना अधिक होगा, अनुमानित मृत्यु दर उतनी ही अधिक होगी; इनहेलेशन चोट 17 वर्षों (या SCQ के 17%) के बराबर है",
+            "locale": "hi",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "क्लासिक Baux स्कोर % में मृत्यु दर के अनुमान के रूप में बनाया गया था; वर्तमान उपचार के साथ, यह व्याख्या जोखिम को अधिक आँकती है।",
+            "locale": "hi",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos, 12,5% de SCQ, sem inalação: 37,5",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "क्लासिक Baux (आयु + SCQ)",
+                "locale": "hi",
+                "template": "documented-authored-541e8a9862b371bd27d1"
+              },
+              "value": {
+                "text": "38",
+                "locale": "hi",
+                "template": "documented-authored-69b06f48dccbe199e6f3",
+                "sourceNumbers": [
+                  38
+                ]
+              }
+            },
+            {
+              "key": "documented-1",
+              "label": {
+                "text": "इनहेलेशन चोट",
+                "locale": "hi",
+                "template": "documented-authored-f065640c37b9c8bc57e9"
+              },
+              "value": {
+                "text": "नहीं",
+                "locale": "hi",
+                "template": "documented-authored-b59d521a1dfda0ff0a85"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "स्कोर जितना अधिक होगा, अनुमानित मृत्यु दर उतनी ही अधिक होगी; इनहेलेशन चोट 17 वर्षों (या SCQ के 17%) के बराबर है",
+            "locale": "hi",
+            "template": "documented-authored-285323ce6f10b626d2d0"
+          },
+          "note": {
+            "text": "क्लासिक Baux स्कोर % में मृत्यु दर के अनुमान के रूप में बनाया गया था; वर्तमान उपचार के साथ, यह व्याख्या जोखिम को अधिक आँकती है।",
+            "locale": "hi",
+            "template": "documented-authored-704e831f0867ad2cbfa0"
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}
